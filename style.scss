@@ -4,3 +4,85 @@
   font-size:24px;
   font-weight:bold;
 }
+
+header{
+  position:relative;
+  #menu_ern_princpal{
+    position:absolute;
+    z-index: 1000;
+    right: 0;
+    top:0;
+    margin-top: 20px;
+    margin-right: 20px;
+    li{
+      display: inline;
+        a{
+          color:#fff;
+          font-weight:700;
+          padding-right: 5px;
+        }
+        margin-right: 5px;
+        border-right-color: #fff;
+        border-right-style: solid;
+        border-right-width: 1px;
+    }
+    
+  }
+  img#logotipo{
+    position: absolute;
+    top:15px;
+    left:15px;
+    z-index: 1000;
+  }
+  h1{
+    position:absolute;
+    top:250px;
+    left:10px;
+    color:#fff;
+    font-size: 16px;
+  }
+  #carouselExampleIndicators{
+    text-align: center;
+      img.d-block{
+        max-height: 400px;
+      }
+    }
+}
+
+.container{
+  &>.row{
+    margin-top:100px;
+  }
+
+  margin-top:40px;
+  margin-bottom:40px;
+  .titulo_incio{
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom:20px;
+  }
+
+  .card{
+    -webkit-box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+  }
+
+  .custom_panel{
+    margin-top: 10px;
+  }
+
+}
+
+
+footer{
+  color:#fff;
+  margin-top:20px;
+  min-height: 300px;
+  background-color: #284127;
+
+  #logotipo{
+    margin-top:50px;
+  }
+}
